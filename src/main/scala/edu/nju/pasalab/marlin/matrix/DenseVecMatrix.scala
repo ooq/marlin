@@ -556,7 +556,7 @@ class DenseVecMatrix(
         //blkMat.partitionBy(partitioner)
         new BlockMatrix(blkMat)
     }
-    println("row:" + luResult.blocks.count())
+    //println("row:" + luResult.blocks.count())
     luResult
   }
 
